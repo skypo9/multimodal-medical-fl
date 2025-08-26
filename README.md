@@ -172,8 +172,9 @@ datasets_info = {
 
 ## 📁 Repository Structure
 
-
+```
 2. **Implement dataset-specific loading** (if needed):
+
 ```python
 def download_new_medical_dataset():
     # Custom downloading/organization logic for your dataset
