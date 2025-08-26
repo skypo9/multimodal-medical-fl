@@ -188,47 +188,7 @@ multimodal-medical-fl/
     └── performance_metrics.txt   # Detailed results
 ```
 
-## 🔬 Research Applications
 
-### Medical AI Use Cases
-- **🏥 Multi-Hospital Collaboration**: Share knowledge across institutions without sharing sensitive patient data
-- **🔄 Cross-Modality Learning**: Leverage expertise from different imaging specialties
-- **🧬 Rare Disease Studies**: Combine small datasets from multiple medical centers
-- **🎯 Federated Diagnostics**: Improve diagnostic accuracy across imaging modalities
-
-### Experimental Research
-- **📊 Domain Adaptation**: Study model performance across different medical imaging domains
-- **⚖️ Non-IID Analysis**: Evaluate robustness to data heterogeneity in medical settings
-- **🔒 Privacy-Preserving ML**: Develop medical AI without centralizing patient data
-- **📈 Strategy Comparison**: Benchmark different federated learning approaches
-
-## 📊 Evaluation Metrics & Visualization
-
-### Performance Metrics
-- **Accuracy**: Overall classification accuracy per client and globally
-- **F1-Score**: Balanced measure for potentially imbalanced medical datasets
-- **Loss Convergence**: Training stability and convergence analysis
-- **Cross-Modal Transfer**: Knowledge transfer effectiveness between domains
-
-### Automated Visualizations
-- **Training Curves**: Real-time loss and accuracy progression
-- **Strategy Comparison**: Side-by-side FedAvg vs FedBN performance
-- **Class Distribution**: Dataset balance and sampling visualization
-- **Performance Heatmaps**: Cross-modal results analysis
-
-## 🛠️ Development & Customization
-
-### Adding New Medical Datasets
-
-The current implementation focuses on skin cancer (dermoscopy) and pneumonia X-ray (chest radiography). To add new datasets:
-
-1. **Add dataset info**:
-```python
-datasets_info = {
-    "skin_cancer": ["benign", "malignant"],
-    "pneumonia_xray": ["normal", "pneumonia"],
-    "new_medical_dataset": ["healthy", "diseased"],  # Add here
-}
 ```
 
 2. **Implement dataset-specific loading** (if needed):
