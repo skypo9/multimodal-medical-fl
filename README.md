@@ -172,24 +172,6 @@ datasets_info = {
 
 ## 📁 Repository Structure
 
-```
-multimodal-medical-fl/
-├── README.md                      # This documentation
-├── requirements.txt               # Python dependencies
-├── LICENSE                        # MIT License
-├── multimodal_fl_simulation.py    # Main simulation script
-├── .gitignore                     # Git ignore rules
-├── datasets/                      # Dataset directory (populated on first run)
-│   ├── skin_cancer/              # Dermoscopy images (benign/malignant)
-│   └── pneumonia_xray/           # Chest X-ray images (normal/pneumonia)
-└── results/                       # Training results and plots
-    ├── training_curves.png       # Loss and accuracy plots
-    ├── comparison_plots.png      # Strategy comparison
-    └── performance_metrics.txt   # Detailed results
-```
-
-
-```
 
 2. **Implement dataset-specific loading** (if needed):
 ```python
